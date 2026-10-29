@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio Profesional | Desarrollador Web</title>
+    <!-- Vinculación al archivo CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Iconos (opcional) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Encabezado y Navegación -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Mi<span>Portafolio</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Sobre Mí</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+            <!-- Botón para cambiar entre modo claro y oscuro -->
+            <button id="theme-toggle" aria-label="Cambiar tema de color">
+                <i class="fas fa-moon"></i>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Contenido Principal -->
+    <main>
+        <!-- Sección de Inicio (Hero) -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Hola, soy <span class="highlight">Jorge Iván Sierra Suárez</span></h1>
+                <p>Desarrollador Web Full Stack apasionado por crear experiencias digitales accesibles y funcionales.</p>
+                <a href="#projects" class="btn">Ver mis proyectos</a>
+            </div>
+            <div class="hero-image">
+                <!-- Atributo alt descriptivo para accesibilidad -->
+                <img src="https://avatars.githubusercontent.com/u/10810296?v=4" alt="Foto de perfil de Tu Nombre sonriendo">
+            </div>
+        </section>
+
+        <!-- Sección Sobre Mí -->
+        <section id="about" class="about">
+            <h2>Sobre Mí</h2>
+            <p>Soy un desarrollador con experiencia en la creación de aplicaciones web modernas. Me especializo en HTML, CSS, JavaScript y frameworks como React. Mi objetivo es construir sitios web que no solo se vean bien, sino que también sean rápidos y accesibles para todos los usuarios.</p>
+        </section>
+
+        <!-- Sección de Proyectos -->
+        <section id="projects" class="projects">
+            <h2>Mis Proyectos</h2>
+            <div class="project-grid">
+                <!-- Proyecto 1 -->
+                <article class="project-card">
+                    <img src="https://via.placeholder.com/400x200" alt="Captura de pantalla del Proyecto de Comercio Electrónico">
+                    <h3>E-commerce App</h3>
+                    <p>Una tienda en línea completa construida con React y Node.js.</p>
+                </article>
+                <!-- Proyecto 2 -->
+                <article class="project-card">
+                    <img src="https://via.placeholder.com/400x200" alt="Captura de pantalla de la Aplicación del Clima">
+                    <h3>App del Clima</h3>
+                    <p>Consulta el clima en tiempo real usando la API de OpenWeather.</p>
+                </article>
+                <!-- Proyecto 3 -->
+                <article class="project-card">
+                    <img src="https://via.placeholder.com/400x200" alt="Captura de pantalla del Panel de Administración">
+                    <h3>Panel de Administración</h3>
+                    <p>Dashboard interactivo para la gestión de datos empresariales.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Sección de Contacto -->
+        <section id="contact" class="contact">
+            <h2>Contacto</h2>
+            <p>¿Tienes un proyecto en mente? ¡Hablemos!</p>
+            <form id="contact-form">
+                <input type="text" placeholder="Tu Nombre" required>
+                <input type="email" placeholder="Tu Correo Electrónico" required>
+                <textarea placeholder="Tu Mensaje" rows="5" required></textarea>
+                <button type="submit" class="btn">Enviar Mensaje</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Pie de Página -->
+    <footer>
+        <p>&copy; 2026 Jorge Iván Sierra Suárez. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Vinculación al archivo JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
